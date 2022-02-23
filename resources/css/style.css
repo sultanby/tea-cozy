@@ -39,6 +39,13 @@ nav a {
     color: seashell;
 }
 
+:target:before {
+    content: "";
+    display: block;
+    height: 69px;
+    margin: -69px 0 0;
+}
+
 main {
     margin-top: 69px;
     align-items: center;
