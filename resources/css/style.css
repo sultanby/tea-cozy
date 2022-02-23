@@ -149,3 +149,8 @@ main {
 #contact {
     height: 200px;
 }
+
+footer {
+    float: left;
+    padding: 20px;
+}
