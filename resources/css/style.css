@@ -41,6 +41,7 @@ nav a {
 
 main {
     margin-top: 69px;
+    align-items: center;
 }
 
 #mission {
@@ -72,4 +73,31 @@ main {
 
 #mission div h4 {
     margin-bottom: 10px;
+}
+
+#featured-tea {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+#featured-tea img {
+    width: 300px;
+    height: 200px;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: inline;
+    padding: 10px;
+}
+
+.card p{
+    margin: 10px 0;
 }
